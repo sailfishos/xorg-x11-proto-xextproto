@@ -1,0 +1,15 @@
+Name: xorg-x11-proto-xextproto
+Summary: X.Org X11 Protocol xextproto
+Version: 7.2.0
+Release: 0
+Group: Development/System
+Description: XOrg X11 Protocol xextproto
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/xextproto-%{version}.tar.bz2
+
+Provides: xextproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
